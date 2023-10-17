@@ -47,11 +47,13 @@ nav {
 }
 
 img {
+  animation: imagesAni ease 5s;
   transition: all 250ms;
+  padding: 30px;
+  border: none;
 }
 img:hover {
-  width: 480px;
-  height: 260px;
+  transform: scale(1.2);
 }
 body {
   animation: fadeInAnimation ease 3s;
@@ -67,5 +69,19 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes imagesAni {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
