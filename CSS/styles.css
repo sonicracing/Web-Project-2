@@ -12,6 +12,7 @@ img {
 h1,
 h2,
 h3 {
+  font-weight: bolder;
   font-size: 50px;
   text-decoration: none;
   color: #d4d4d4;
@@ -21,6 +22,7 @@ figcaption {
   font-size: 25px;
   text-decoration: none;
   color: #d4d4d4;
+  font-weight: bolder;
 }
 
 body {
@@ -32,6 +34,7 @@ a {
   text-decoration: none;
   color: #d4d4d4;
   transition: all 100ms;
+  font-weight: bolder;
 }
 
 a:hover {
