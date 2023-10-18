@@ -16,6 +16,7 @@ h3 {
   font-size: 50px;
   text-decoration: none;
   color: #d4d4d4;
+  font-family: "Times New Roman", Times, serif;
 }
 p,
 figcaption {
@@ -23,6 +24,7 @@ figcaption {
   text-decoration: none;
   color: #d4d4d4;
   font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -36,6 +38,7 @@ a {
   color: #d4d4d4;
   transition: all 100ms;
   font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
 }
 
 a:hover {
