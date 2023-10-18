@@ -8,8 +8,7 @@
   <title>Contact</title>
   <link rel="stylesheet" href="CSS/styles.css">
   <style>
-    #about-me {
-      float: left;
+    #left-align {
       text-align: left;
     }
 
@@ -21,6 +20,10 @@
       100% {
         transform: translate(0);
       }
+    }
+
+    .red {
+      color: red;
     }
 
     .about {
@@ -40,6 +43,10 @@
         background-position: 0% 50%
       }
     }
+
+    body {
+      background-image: url("images/blackbackground.jpg");
+    }
   </style>
 </head>
 
@@ -53,17 +60,24 @@
   <hr>
   <h1>Contact</h1>
   <div>
-    <p>Name: Shubh Shah<br>Email: sonicracing2020@gmail.com<br>Phone: 123-456-7890<br>Address: 69 Gryffindor
-      Avenue<br>Postal Code: A1A 0A0</p>
+    <p>Name: <span class="red">Shubh Shah</span><br>Email: <span class="red">sonicracing2020@gmail.com</span><br>Phone:
+      <span class="red">123-456-7890</span><br>Address:<span class="red">69
+        Gryffindor
+        Avenue</span>
+      <br>Postal Code: <span class="red">A1A 0A0</span>
+    </p>
   </div>
 
   <div style="display:flex;">
     <div>
       <img style="width:200px;height:400px;" src="images/shubh.jpg">
     </div>
-    <div>
-      <h3 style="text-align:left;">About Me</h3>
-      <p>Hello! My name is Shubh. I'm a student at PTC. I used to go to Acadia Junior
+    <div class="about">
+      <h3 id="left-align">About Me</h3>
+      <p><span class="red">Hello!</span> My name is Shubh. I'm a student at PTC. I
+        used
+        to go to Acadia
+        Junior
         High.
         This
         is my
