@@ -18,6 +18,10 @@ h3 {
   color: #d4d4d4;
   font-family: "Times New Roman", Times, serif;
 }
+
+h1 {
+  padding-top: 60px;
+}
 p,
 figcaption {
   font-size: 25px;
@@ -45,11 +49,19 @@ a:hover {
   color: #b15a5a;
   font-size: 30px;
 }
+
 nav {
   background-color: #202029;
   padding: 30px;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
-
+nav a {
+  padding: 7px 12px;
+  width: 10px;
+}
 img {
   animation: imagesAni ease 5s;
   transition: all 250ms;
