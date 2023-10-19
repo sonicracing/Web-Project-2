@@ -63,7 +63,7 @@ nav a {
   width: 10px;
 }
 img {
-  animation: imagesAni ease 5s;
+  animation: imagesAni ease 2s;
   transition: all 250ms;
   padding: 30px;
   border: none;
@@ -81,6 +81,9 @@ body {
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
 
   100% {
